@@ -288,7 +288,7 @@ p {
     border-top: 1px solid lightgray;
     padding-top: 0.8rem;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 24% 24% 24% 24%;
     grid-template-rows: repeat(2, 1fr);
   }
 

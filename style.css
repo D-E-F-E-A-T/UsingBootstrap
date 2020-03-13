@@ -5,6 +5,12 @@ a:hover {
     color:gray;
 }
 
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #f4f5f6;
+}
+
 main {
     top: 3rem;
     z-index: 1;
@@ -12,11 +18,34 @@ main {
 
 nav {
     z-index: 2;
-    overflow: hidden;
 }
 
 section {
     border-bottom: 1px solid rgba(128,128,128, 0.3);
+}
+
+.navbar1 {
+    z-index:100;
+}
+
+.navbar2 {
+    background-color: white;
+    top: 3rem;
+
+
+}
+
+.navbar2 input {
+    border: none;
+    width: 10%;
+}
+
+.navbar2 a:hover {
+    background-color: lightgray;
+}
+
+.navbar2 a {
+    height: 100%;
 }
 
 .text-dark {
@@ -27,9 +56,6 @@ section {
     background-color: black!important;
 }
 
-body {
-    background-color: #f4f5f6;
-}
 
 p {
     color: #333;
@@ -48,7 +74,8 @@ section {
 .navbar {
     height:3.1em!important;
     flex-wrap:nowrap!important;
-    width: 100vw!important;
+    max-width: 1400px!important;
+    width: 100%;
 }
 
 .navbar-brand h1{
@@ -176,7 +203,7 @@ a:hover {
     color: orangered!important;
 }
 
-@media(min-width:610px) {
+@media(min-width:630px) {
     .weather {
         display: inline!important;
     } 
@@ -428,5 +455,100 @@ a:hover {
         align-items: flex-end;
     }
 
+}
+
+@media(min-width:1100px) {
+
+    
+
+    .navbar {
+        height: 6.5625rem!important;
+    }
+
+    .navbar2 {
+        display: flex!important;
+        position: relative;
+        height: 3rem!important;
+        top:6.5625rem;
+        width:1400px;
+        min-width:100%;
+    }
+
+    .nav-subscribe {
+        
+        height: 100%;
+        align-items:baseline!important;
+        padding-bottom: 0.5rem;
+        margin-right: 0.2rem!important;
+    }
+
+    .signin-link {
+        align-self: flex-end;
+        order: 1;
+        padding-bottom: 0.2rem;
+    }
+
+    .subscribe-link {
+        align-self: flex-end;
+        order: 5;
+        margin-right: 0rem!important;
+    }
+
+    .navbar-brand h1{
+        font-size: 5rem!important;
+        font-weight: 900;
+    }
+    
+    main {
+        top: 6.5625rem!important;
+        display: grid;
+        width:1400px!important;
+        grid-template-columns:30% 40% 30%;     
+        grid-template-rows: auto auto auto auto auto auto auto;
+
+        grid-template-areas: 
+        "featured-stories top-story opinion"
+        "featured-stories culture-travel debate"
+        "featured-stories more-stories latest-news"
+        "featured-stories more-stories sign-up-letter"
+        "in-magazine in-magazine in-magazine"
+        "editor-pick editor-pick editor-pick"
+        "feature-slideshows feature-slideshows feature-slideshows"
+        "subscribe subscribe newsletter"
+        "links links links";
+    }
+
+    .culture-travel-section {
+        margin-top: -3rem!important;
+    }
+
+    .signup-newsletter {
+        position:relative!important;
+        top: -14rem!important;
+        right: 3rem;
+    }
+
+    img {
+        height:70%;
+    }
+
+    .editor-pick-grid {
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr) ;
+    }
+
+    .newsletter {
+        border-bottom: none;
+        
+    }
+
+    .newsletter div {
+        height: 75%;
+    }
+
+    .featured-slideshows img {
+        height:340px;
+    }
 }
 

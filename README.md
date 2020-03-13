@@ -2,7 +2,7 @@ USING BOOTSTRAP
 
 The objective of the project is practice using Bootstrap in order to increase productivity and make the process of styling much easier.
 
-![image](https://user-images.githubusercontent.com/45266473/76646370-224b2200-655b-11ea-9270-02be0430d835.png)
+![image](https://user-images.githubusercontent.com/45266473/76654126-99d47d80-656a-11ea-95db-a4247e9410c7.png)
 
 For this project I used Bootstrap, CSS-grid, flex-box and floats to position the elements on the page. The goal was to recreate Newsweek page.
 I tried to use Bootstrap as much as possible. The use of semantic HTML tags was also very important for me. I feel like I have a long time

@@ -16,7 +16,7 @@ to go when it comese to learning Bootstap but I think this project really made m
 
 ## Live Demo
 
-https://rawcdn.githack.com/markonikovic/UsingBootstrap/8609286e459bdbf9ab893c6e22e3e186f72f3e1b/index.html
+https://rawcdn.githack.com/markonikovic/UsingBootstrap/b9a4268fc4a4c0ddec7ba431f51c72fb8184479c/index.html
 
 ## Getting Started
 

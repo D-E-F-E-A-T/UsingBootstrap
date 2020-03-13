@@ -499,8 +499,8 @@ p {
   }
 
   .date {
-    display: block!important;
-    margin-left: 0.4rem!important;
+    display: block !important;
+    margin-left: 0.4rem !important;
     margin-top: 0.8rem;
   }
 }

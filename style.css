@@ -1,0 +1,520 @@
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #f4f5f6;
+}
+
+main {
+  top: 3rem;
+  z-index: 1;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+nav {
+  z-index: 2;
+  width: 100%;
+  max-width: 100%;
+}
+
+section {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  background-color: #fff;
+}
+
+.navbar1 {
+  z-index: 100;
+}
+
+.navbar2 {
+  background-color: white;
+  top: 3rem;
+  max-width: 100% !important;
+  min-width: 100% !important;
+  width: 100% !important;
+}
+
+.navbar2 input {
+  border: none;
+  width: 10%;
+}
+
+.navbar2 a {
+  height: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.navbar2 a:hover {
+  background-color: lightgray;
+}
+
+.text-dark {
+  color: black !important;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+p {
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.bg-gray {
+  background-color: #f4f5f6;
+}
+
+.navbar {
+  height: 3.1em !important;
+  flex-wrap: nowrap !important;
+  max-width: 1400px !important;
+  width: 100%;
+}
+
+.navbar-brand h1 {
+  font-size: 1.6rem;
+}
+
+.navbar-image {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.py-1 {
+  padding-top: 0.1125rem !important;
+  padding-bottom: 0.1125rem !important;
+}
+
+.navbar-toggler-icon {
+  font-size: 1.3rem;
+}
+
+.text-warning {
+  color: #f72210 !important;
+}
+
+.bg-warning {
+  background-color: #f72210 !important;
+}
+
+.btn-warning {
+  background-color: #f72210 !important;
+}
+
+.subscribe-link {
+  font-size: 1.1rem;
+}
+
+.opinion-section img {
+  width: 3.9375rem;
+  height: 3.9375rem;
+}
+
+.the-debate-section div {
+  border-top-width: 0.25rem !important;
+}
+
+.the-debate-section .second-div {
+  border-top-style: double !important;
+}
+
+.latest-news-section img {
+  width: 5.9375rem !important;
+  height: 5.9375rem !important;
+}
+
+.more-stories-section img {
+  width: 5.9375rem;
+  height: 5.9375rem;
+}
+
+.newsletter img {
+  height: 10rem !important;
+}
+
+.the-debate-section img {
+  width: 5.9375rem;
+  height: 5.9375rem;
+}
+
+.culture-travel-section img {
+  width: 100% !important;
+  height: 28.3124rem !important;
+}
+
+.editor-pick img {
+  height: 18.875rem !important;
+  width: 100% !important;
+}
+
+.the-debate-section .second-div img {
+  height: 3.9375rem;
+  width: 3.9375rem;
+  top: -0.9375rem;
+}
+
+.signup-newsletter {
+  background-color: #f4f5f6;
+  width: 18.75rem !important;
+  height: 10rem !important;
+  overflow: hidden;
+}
+
+.picture-170 {
+  height: 14.1875rem;
+  width: 10.625rem;
+}
+
+.social-icons i {
+  font-size: 1.4625rem;
+  margin-right: 0.7rem;
+}
+
+.underline-links a h5:hover {
+  text-decoration: underline;
+  text-decoration-color: orangered;
+}
+
+.underline-links-small a h6:hover {
+  text-decoration: underline;
+  text-decoration-color: orangered;
+}
+
+.underline-links-small-p a p:hover {
+  text-decoration: underline;
+  text-decoration-color: orangered;
+}
+
+.color-links a h6:hover {
+  color: orangered !important;
+}
+
+@media (min-width: 900px) {
+  .weather {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 700px) {
+  .subscribe-link {
+    margin-right: 1rem !important;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-areas: "featured-stories top-story " "featured-stories culture-travel" "featured-stories more-stories" "opinion opinion" "debate debate" "latest-news latest-news" "sign-up-letter sign-up-letter" "in-magazine in-magazine" "editor-pick editor-pick" "feature-slideshows feature-slideshows" "subscribe subscribe" "newsletter newsletter" "links links";
+  }
+
+  .top-story-section {
+    grid-area: top-story;
+    border-bottom: none;
+  }
+
+  .featured-stories-section {
+    grid-area: featured-stories;
+    margin-top: 0 !important;
+    border-bottom: none;
+  }
+
+  .culture-travel-section {
+    grid-area: culture-travel;
+    border-bottom: none;
+    margin-top: -9.375rem !important;
+  }
+
+  .travel-section-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .culture-travel-section img {
+    height: 7rem !important;
+    width: 100% !important;
+  }
+
+  .more-stories-section {
+    grid-area: more-stories;
+    margin-top: 0 !important;
+    border-bottom: 0;
+  }
+
+  .opinion-section-main {
+    grid-area: opinion;
+    margin-top: 0 !important;
+    border-bottom: none;
+  }
+
+  .debate-section {
+    grid-area: debate;
+    margin-top: 0 !important;
+    border-bottom: none;
+  }
+
+  .brake-section {
+    display: none;
+  }
+
+  .latest-news-section {
+    grid-area: latest-news;
+    margin-top: 0 !important;
+    border-bottom: none;
+  }
+
+  .sign-up-letter-section {
+    grid-area: sign-up-letter;
+    margin-top: 0 !important;
+    border-bottom: none;
+  }
+
+  .in-magazine-section {
+    grid-area: in-magazine;
+    margin-top: 0 !important;
+    border-bottom: 0;
+  }
+
+  .in-magazine-grid {
+    border-top: 1px solid lightgray;
+    padding-top: 0.8rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .editor-pick {
+    grid-area: editor-pick;
+    margin-top: 0 !important;
+    border-bottom: 0;
+  }
+
+  .editor-pick-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .featured-slideshows {
+    grid-area: feature-slideshows;
+    margin-top: 0 !important;
+    border-bottom: 0 !important;
+  }
+
+  .featured-slideshows-grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .featured-slideshows-grid2 {
+    border-top: 1px solid lightgray;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .more-margin-top {
+    margin-top: 3.125rem !important;
+  }
+
+  .border-top-none {
+    border-top: none !important;
+  }
+
+  .featured-slideshows-grid2:first-child {
+    border-top-width: 100vw;
+  }
+
+  .subscribe {
+    grid-area: subscribe;
+    margin-top: 0 !important;
+    border-bottom: none;
+  }
+
+  .subscribe-flex {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .subscribe-image {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .subscribe-text h5 {
+    text-align: left !important;
+  }
+
+  .subscribe-text h6 {
+    text-align: left !important;
+  }
+
+  .subscribe-text button {
+    margin-left: 0 !important;
+    margin-right: auto;
+  }
+
+  .newsletter {
+    grid-area: newsletter;
+    margin-top: 0 !important;
+  }
+
+  .newsletter-flex {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .newsletter-image {
+    width: 10rem;
+    height: 100% !important;
+    margin-right: 2rem !important;
+  }
+
+  .newsletter-text h5 {
+    text-align: left !important;
+  }
+
+  .newsletter-text h6 {
+    text-align: left !important;
+  }
+
+  .newsletter-text button {
+    margin-left: 0 !important;
+    margin-right: auto;
+  }
+
+  .links {
+    grid-area: links;
+    margin-top: 0 !important;
+  }
+
+  .links-flex {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+  }
+
+  .links-text {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .links-text p {
+    margin-left: 1rem;
+    margin-bottom: 0.3rem !important;
+  }
+
+  .social-icons {
+    border-bottom: none !important;
+    margin-bottom: 0.3rem !important;
+    padding-bottom: 0 !important;
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+@media (min-width: 1100px) {
+  .navbar {
+    height: 6.5625rem !important;
+  }
+
+  .navbar2 {
+    display: flex !important;
+    position: relative;
+    height: 3rem !important;
+    top: 6.5625rem;
+    overflow: hidden;
+  }
+
+  .nav-subscribe {
+    height: 100%;
+    align-items: baseline !important;
+    padding-bottom: 0.5rem;
+    margin-right: 0.2rem !important;
+  }
+
+  .signin-link {
+    align-self: flex-end;
+    order: 1;
+    padding-bottom: 0.2rem;
+  }
+
+  .subscribe-link {
+    align-self: flex-end;
+    order: 5;
+    margin-right: 0 !important;
+  }
+
+  .navbar-brand h1 {
+    font-size: 5rem !important;
+    font-weight: 900;
+  }
+
+  main {
+    top: 6.5625rem !important;
+    display: grid;
+    width: 1400px !important;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-areas: "featured-stories top-story opinion" "featured-stories culture-travel debate" "featured-stories more-stories latest-news" "featured-stories more-stories sign-up-letter" "in-magazine in-magazine in-magazine" "editor-pick editor-pick editor-pick" "feature-slideshows feature-slideshows feature-slideshows" "subscribe subscribe newsletter" "links links links";
+  }
+
+  .culture-travel-section {
+    margin-top: -3rem !important;
+  }
+
+  .signup-newsletter {
+    position: relative !important;
+    top: -14rem !important;
+    right: 3rem;
+  }
+
+  img {
+    height: 70%;
+  }
+
+  .editor-pick-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .newsletter {
+    border-bottom: none;
+  }
+
+  .newsletter div {
+    height: 75%;
+  }
+
+  .featured-slideshows img {
+    height: 340px;
+  }
+
+  .date {
+    display: block !important;
+    margin-left: 0.4rem !important;
+    margin-top: 0.8rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  body {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
